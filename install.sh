@@ -17,8 +17,8 @@ set -e
 
 CREATE_BUCKET="false"
 INSTALL_DEPENDENCIES="true"
-GCS_LOCATION="us"
-DATAFLOW_REGION="us-central1"
+GCS_LOCATION="eu"
+DATAFLOW_REGION="europe-west1-b"
 
 output_help_text() {
   cat <<HELP
