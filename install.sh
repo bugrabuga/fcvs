@@ -66,7 +66,7 @@ temp_install_py38_virtualenv() {
     pyenv install "${PY38_VERSION}"
   fi
 
-  virtualenv -p "${PY38_DIR}/python3.8" focvs-env
+  virtualenv -p "${PY38_DIR}/python3.12.3" focvs-env
 }
 
 install_dependencies() {
